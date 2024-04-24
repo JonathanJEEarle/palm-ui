@@ -4,7 +4,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:"/palm-ui/"
+  base:"/palm-ui/",
   plugins: [tsconfigPaths({ root: __dirname }), react()],
   build: {
     rollupOptions: {
