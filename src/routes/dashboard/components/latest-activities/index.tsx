@@ -86,7 +86,7 @@ export const DashboardLatestActivities: React.FC<{ limit?: number }> = ({
         >
           <UnorderedListOutlined />
           <Text size="sm" style={{ marginLeft: ".5rem" }}>
-            Latest activities
+            Recent Messages
           </Text>
         </div>
       }

@@ -124,13 +124,13 @@ export const GitHubBanner = () => {
             </div>
           </div>
         </div>
-        <Text />
+        {/*<Text />*/}
       </div>
     </div>
   );
 };
 
-const Text = () => {
+/*const Text = () => {
   return (
     <a
       className="gh-link"
@@ -178,7 +178,7 @@ const Text = () => {
       </div>
     </a>
   );
-};
+};*/
 
 const GlowSmall = ({ style, ...props }: SVGProps<SVGSVGElement>) => {
   return (
