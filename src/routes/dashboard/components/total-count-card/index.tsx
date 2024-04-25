@@ -155,7 +155,7 @@ const variants: {
         />
       </IconWrapper>
     ),
-    title: "Number of companies",
+    title: "Number of Tickets",
     data: [
       {
         index: "1",
@@ -192,7 +192,7 @@ const variants: {
         />
       </IconWrapper>
     ),
-    title: "Number of contacts",
+    title: "Tickets Pending Client Approval",
     data: [
       {
         index: "1",
@@ -233,7 +233,7 @@ const variants: {
         />
       </IconWrapper>
     ),
-    title: "Total deals in pipeline",
+    title: "Tickets Pending Signoff",
     data: [
       {
         index: "1",
