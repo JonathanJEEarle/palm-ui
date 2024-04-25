@@ -142,7 +142,7 @@ const variants: {
     data: { index: string; value: number }[];
   };
 } = {
-  companies: {
+  deals: {
     primaryColor: "#1677FF",
     secondaryColor: "#BAE0FF",
     icon: (
@@ -232,7 +232,7 @@ const variants: {
       },
     ],
   },
-  deals: {
+  companies: {
     primaryColor: "#FA541C",
     secondaryColor: "#FFD8BF",
     icon: (

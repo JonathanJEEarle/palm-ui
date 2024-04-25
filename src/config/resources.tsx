@@ -19,7 +19,7 @@ export const resources: IResourceItem[] = [
       icon: <DashboardOutlined />,
     },
   },
-  {
+  /*{
     name: "events",
     list: "/calendar",
     create: "/calendar/create",
@@ -29,8 +29,41 @@ export const resources: IResourceItem[] = [
       label: "Calendar",
       icon: <CalendarOutlined />,
     },
+  },*/
+  {
+    name: "quotes",
+    list: "/quotes",
+    create: "/quotes/create",
+    edit: "/quotes/edit/:id",
+    show: "/quotes/show/:id",
+    meta: {
+      label: "Messages",
+      icon: <ContainerOutlined />,
+    },
   },
   {
+    name: "quotes",
+    list: "/quotes",
+    create: "/quotes/create",
+    edit: "/quotes/edit/:id",
+    show: "/quotes/show/:id",
+    meta: {
+      label: "Tickets",
+      icon: <ContainerOutlined />,
+    },
+  },
+  {
+    name: "quotes",
+    list: "/quotes",
+    create: "/quotes/create",
+    edit: "/quotes/edit/:id",
+    show: "/quotes/show/:id",
+    meta: {
+      label: "Contracts",
+      icon: <ContainerOutlined />,
+    },
+  },
+  /*{
     name: "scrumboard",
     meta: {
       label: "Scrumboard",
@@ -83,7 +116,7 @@ export const resources: IResourceItem[] = [
     meta: {
       hide: true,
     },
-  },
+  },*/
   {
     name: "companies",
     list: "/companies",
@@ -91,7 +124,7 @@ export const resources: IResourceItem[] = [
     create: "/companies/create",
     edit: "/companies/edit/:id",
     meta: {
-      label: "Companies",
+      label: "Clients",
       icon: <ShopOutlined />,
     },
   },
@@ -114,24 +147,13 @@ export const resources: IResourceItem[] = [
       icon: <TeamOutlined />,
     },
   },
-  {
-    name: "quotes",
-    list: "/quotes",
-    create: "/quotes/create",
-    edit: "/quotes/edit/:id",
-    show: "/quotes/show/:id",
-    meta: {
-      label: "Quotes",
-      icon: <ContainerOutlined />,
-    },
-  },
-  {
+  /*{
     name: "administration",
     meta: {
       label: "Administration",
       icon: <CrownOutlined />,
     },
-  },
+  },*/
   {
     name: "settings",
     list: "/administration/settings",

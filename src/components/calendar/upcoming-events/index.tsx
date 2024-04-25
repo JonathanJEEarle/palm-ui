@@ -115,13 +115,13 @@ export const CalendarUpcomingEvents: React.FC<CalendarUpcomingEventsProps> = ({
           </Text>
         </div>
       }
-      extra={
+      /*extra={
         showGoToListButton && (
           <Button onClick={() => list("events")} icon={<RightCircleOutlined />}>
             See calendar
           </Button>
         )
-      }
+      }*/
       {...cardProps}
     >
       {isLoading &&
