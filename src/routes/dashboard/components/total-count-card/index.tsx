@@ -159,23 +159,35 @@ const variants: {
     data: [
       {
         index: "1",
-        value: 3500,
+        value: 1000,
       },
       {
         index: "2",
-        value: 2750,
+        value: 1300,
       },
       {
         index: "3",
-        value: 5000,
+        value: 1200,
       },
       {
         index: "4",
-        value: 4250,
+        value: 2000,
       },
       {
         index: "5",
-        value: 5000,
+        value: 800,
+      },
+      {
+        index: "6",
+        value: 1700,
+      },
+      {
+        index: "7",
+        value: 1400,
+      },
+      {
+        index: "8",
+        value: 1800,
       },
     ],
   },
@@ -237,35 +249,23 @@ const variants: {
     data: [
       {
         index: "1",
-        value: 1000,
+        value: 3500,
       },
       {
         index: "2",
-        value: 1300,
+        value: 2750,
       },
       {
         index: "3",
-        value: 1200,
+        value: 5000,
       },
       {
         index: "4",
-        value: 2000,
+        value: 4250,
       },
       {
         index: "5",
-        value: 800,
-      },
-      {
-        index: "6",
-        value: 1700,
-      },
-      {
-        index: "7",
-        value: 1400,
-      },
-      {
-        index: "8",
-        value: 1800,
+        value: 5000,
       },
     ],
   },
